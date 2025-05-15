@@ -1,0 +1,8 @@
+FastAPI
+uvicorn
+pydantic
+pytest
+httpx
+python-dotenv
+pydantic_settings
+mkdocs

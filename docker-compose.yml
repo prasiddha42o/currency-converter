@@ -1,0 +1,12 @@
+services: 
+  app:
+    build: .
+    container_name: currency-converter-app
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./app:/app/app
+      - ./currency.db:/app/currency.db
+    restart: unless-stopped

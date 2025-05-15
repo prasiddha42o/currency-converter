@@ -1,0 +1,4 @@
+site_name: Currency Converter FastAPI
+nav:
+  - Home: index.md
+  - API Usage: api.md
